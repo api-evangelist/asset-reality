@@ -1,19 +1,51 @@
 aid: asset-reality
 name: Asset Reality
-description: Asset Reality is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Asset Reality builds end-to-end software infrastructure for the seizure,
+  management, custody, and disposal of both physical and virtual (crypto) assets,
+  purpose-built for law enforcement, defense, and government agencies. Its platform
+  unifies the asset-recovery lifecycle across four solutions — SEIZE, MANAGE, DEPLOY,
+  and ESCROW — replacing clipboard-and-spreadsheet legacy processes with a single
+  system that preserves asset value through investigation, confiscation, forfeiture,
+  and reallocation to public purposes. The company is FCA-authorized to offer crypto
+  custody in the UK, integrates with providers such as Fireblocks and Taxbit, and
+  runs an Academy offering virtual-asset seizure certifications.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67a9d7188d986241c7ba017b/67a9d7188d986241c7ba01ca_webclip_ar.png
 url: https://raw.githubusercontent.com/api-evangelist/asset-reality/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
+- framework-ventures
+- everywhere-vc
+- sgh-capital
+- terranet-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Asset Recovery
+- Crypto Custody
+- Digital Assets
+- Law Enforcement
+- GovTech
+- RegTech
+- Compliance
+- Fraud
+- Blockchain Forensics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,24 @@ maintainers:
 common:
 - type: Website
   url: https://assetreality.com/
+- type: Login
+  url: https://custody.assetreality.com/
+- type: SignUp
+  url: https://www.assetreality.com/#get-started
+- type: Support
+  url: https://www.assetreality.com/faq
+- type: Blog
+  url: https://www.assetreality.com/insights
+- type: TermsOfService
+  url: https://www.assetreality.com/terms/website-terms
+- type: PrivacyPolicy
+  url: https://www.assetreality.com/policies/privacy-policy
+- type: Compliance
+  url: https://www.assetreality.com/policies/privacy-policy
+- type: DomainSecurity
+  url: security/asset-reality-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

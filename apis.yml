@@ -9,6 +9,17 @@ description: Asset Reality builds end-to-end software infrastructure for the sei
   and reallocation to public purposes. The company is FCA-authorized to offer crypto
   custody in the UK, integrates with providers such as Fireblocks and Taxbit, and
   runs an Academy offering virtual-asset seizure certifications.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
